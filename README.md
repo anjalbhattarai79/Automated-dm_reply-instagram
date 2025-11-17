@@ -1,4 +1,4 @@
-# automated-reply-instagram
+# Automated-dm-reply-instagram
 
 Automated reply system for Instagram messages built with n8n and LLMs.  
 This project demonstrates a pipeline that receives inbound messages via a webhook, performs RAG (Retrieval-Augmented Generation) using Pinecone as the vector store, drafts replies with an LLM, ensures the reply is JSON-valid, and returns it via an HTTP Request node.
